@@ -76,7 +76,6 @@ def ident( matrix ):
 #m1 * m2 -> m2
 def matrix_mult( m1, m2 ):
     point = 0
-    print(m2)
     for row in m2:
         #get a copy of the next point
         tmp = row[:]
